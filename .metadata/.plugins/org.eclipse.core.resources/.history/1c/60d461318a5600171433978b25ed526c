@@ -1,0 +1,28 @@
+package byaymen.model;
+
+public class Chef {
+
+	private int id;
+	private String chefName;
+	private String dish;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getChefName() {
+		return chefName;
+	}
+	public void setChefName(String chefName) {
+		this.chefName = chefName;
+	}
+	public String getDish() {
+		return dish;
+	}
+	public void setDish(String dish) {
+		this.dish = dish;
+	}
+
+}

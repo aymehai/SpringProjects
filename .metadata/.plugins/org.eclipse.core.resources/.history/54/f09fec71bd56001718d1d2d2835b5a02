@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!--erson</h3>
+	<h3>Item</h3>
+	<form th:each="item : ${items}">
+		<p th:text="${item.chefname}"></p>
+		<p th:text="${item.dish}">
+	</p>
+		</form>
+		-->
+</body>
+</html>

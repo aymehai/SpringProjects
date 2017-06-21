@@ -1,0 +1,14 @@
+package byaymen;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class GreetController {
+
+	@Autowired
+	private GreetRepository greetRepository;
+	
+	@GetMapping(path="/add")
+	public @ReponseBody String addNewGreet(@RequestParam String content)
+}

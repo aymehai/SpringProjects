@@ -1,0 +1,8 @@
+package byaymen.model;
+
+public class Chef {
+
+	private int id;
+	private String chefName;
+	private String dish;
+}

@@ -1,0 +1,7 @@
+package byaymen;
+
+import org.springframework.data.repository.CrudRepository;
+
+public class ChefRepository extends CrudRepository{
+
+}

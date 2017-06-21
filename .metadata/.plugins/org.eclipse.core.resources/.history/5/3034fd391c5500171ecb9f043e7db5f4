@@ -1,0 +1,15 @@
+package byaymen;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class GreetingController {
+
+	
+	@GetMapping("/greeting")
+	public String greetingForm(Model model){
+		model.addAttribute("greeting",new Greeting());
+		return "greeting";
+	}
+}

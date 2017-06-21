@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head lang="en">
+    <meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="#" th:action="@{/add}" th:object="${chef}" method="post">
+	<p>Id: <input type="text" th:field="*{id}" />
+	<span th:if = "${#fields.hasErrors('id')}" th:errors="*{id}">Id Error</span>
+	</p>
+	<p>Chef: <input type="text" th:field="*{chefName}" />
+	<span th:if = "${#fields.hasErrors('chefName')}" th:errors="*{chefName}">Name Error</span>
+	</p>
+	<p>Dish: <input type="text" th:field="*{dish}" />
+	<span th:if = "${#fields.hasErrors('dish')}" th:errors="*{dish}">Dish Error</span>
+	</p>
+	<p><input type="submit" value = "Add Dish" href= "/results"/></p>
+	</form>
+</body>
+</html> 

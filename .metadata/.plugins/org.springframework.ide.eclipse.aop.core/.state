@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="PotLuck"/>
+<aop-project name="ShowSpring"/>
+<aop-project name="SpringATM"/>
+</aop-reference-model>

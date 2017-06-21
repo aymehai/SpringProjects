@@ -1,0 +1,13 @@
+package model;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ChefController {
+
+    @RequestMapping("/")
+    public String index() {
+        return "It Works";
+    }
+}

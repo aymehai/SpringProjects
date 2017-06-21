@@ -1,0 +1,14 @@
+package myaymen;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@Controller
+public class HomeController {
+
+	@RequestMapping("/")
+	public String index(Model modle){
+		return "Greetings from Spring Boot!";
+	}
+
+}

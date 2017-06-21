@@ -1,0 +1,10 @@
+package byaymen;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class GreetController {
+
+	@Autowired
+	private GreetRepository greetRepository;
+}
